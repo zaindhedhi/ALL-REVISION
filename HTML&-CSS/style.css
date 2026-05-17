@@ -1,0 +1,95 @@
+h1{
+    /* color: white; */
+    background-color: pink;
+    text-align: center;
+    border: 15px solid white;
+    /* padding: 15px; */
+    text-transform: capitalize;
+   
+   
+}
+
+.baseline{
+    vertical-align: super;
+    font-size: 2rem;
+}
+
+/* font size hamesha rem ma dena haa.. */
+/* border wagera hamesha pixel donga */
+/* box wagera percent ma define kro */
+
+.first{
+    width: 300px;
+    height: 300px;
+    background-color:  #bbbbaa;
+    
+}
+.para {
+ height: 75%;
+ width: 75%;
+ background-color: #0088dd;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+/* position relative */
+/* position absolute */
+/* position static */
+/* position fixed */
+
+
+/* display: inline */
+/* display: block */
+/* display: inline-block */
+/* display: none */
+/* display: flex */
+/* display: grid */
+
+.parent{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    background-color: #d3d3d3;
+    height: 300vh;
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    z-index: 5;
+    
+}
+.green{
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    right: 20px;
+
+}
+/* .blue{
+    background-color: blue;
+    position: fixed;
+    bottom: 300px;
+    z-index: 2;
+} */
+
+.hi{
+    width: 230px;
+    float: left;
+    margin: 30px;
+    padding: 5px;
+    background-color: #bbbbaa;
+
+}
