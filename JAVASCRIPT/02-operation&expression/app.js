@@ -59,3 +59,17 @@ console.log("hello world");
 // console.log(20 >= 20); // 20 bara hai ya barabr hai 20 sy
 // console.log(20 <= 20); // 20 chota hai ya barabr hai 20 ky
 
+
+// pre increment
+// post increment
+
+// ++num pre increment
+// num++ post increment 
+
+//var num = 10;
+// console.log(num++);
+// console.log(++num);
+
+// var cal = num++ + num++ + ++num + num++ + ++num;
+// console.log(cal)
+
